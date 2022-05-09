@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mako&display=swap');
 
 
 
@@ -19,10 +20,25 @@ body {
 }
 
 
+.subheading {
+    font-family: 'Oxanium', sans-serif;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 139%;
 
-.text {}
+    color: #FFFFFF;
+}
 
-.header {}
+.text {
+    font-family: 'Mako', sans-serif;
+    line-height: 150%;
+    color: #FFFFFF;
+
+}
+
+.header {
+    padding: 0 0 13px;
+}
 
 
 
@@ -57,6 +73,17 @@ body {
 
 .computers {}
 
-.computers__heading {}
+.computers__subheading {
+    max-width: 381px;
+    margin: 0 auto;
 
-.Computers__text {}
+    margin-bottom: 20px;
+}
+
+.computers__strong {
+    color: #D41914;
+}
+
+.computers__text {
+    max-width: 712px;
+}
