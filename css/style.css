@@ -53,6 +53,10 @@ body {
     padding: 40px 0;
 }
 
+.page__ram {
+    padding: 40px 0 35px;
+}
+
 
 
 .header__logo {
@@ -94,7 +98,6 @@ body {
 
 
 
-
 .pc {}
 
 .pc__subheading {
@@ -116,3 +119,61 @@ body {
 }
 
 .pc__text {}
+
+
+
+
+.ram {}
+
+.ram__background {
+    max-width: 100%;
+    height: 262px;
+    background-image: url(./../img/scheme.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin-bottom: 25px;
+}
+
+.ram__subheading {
+    text-align: center;
+
+    margin-bottom: 12px;
+}
+
+.ram__list {
+    margin-bottom: 39px;
+}
+
+.ram__item {
+    line-height: 18px;
+    padding-left: 28px;
+    margin-left: 38px;
+    background-repeat: no-repeat;
+
+    margin-bottom: 14px;
+}
+
+.ram__item:nth-child(1) {
+    background-image: url(./../img/terminal-square.svg);
+    background-position-y: -3px;
+}
+
+.ram__item:nth-child(2) {
+    background-image: url(./../img/terminal.svg);
+    background-position-y: -2px;
+}
+
+.ram__item:nth-child(3) {
+    background-image: url(./../img/calculator.svg);
+    background-position-y: -3px;
+}
+
+.ram__item:last-child {
+    margin-bottom: 0;
+}
+
+
+.ram__text {
+    max-width: 708px;
+}
