@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mako&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
 
 
 
@@ -45,7 +46,7 @@ body {
 .page {}
 
 .page__computers {
-    background: #333333;
+    background-color: #333333;
     padding: 40px 0 40px;
 }
 
@@ -54,11 +55,12 @@ body {
 }
 
 .page__ram {
+    background-color: #333333;
     padding: 40px 0 35px;
 }
 
 
-
+/* position 86px ? */
 .header__logo {
     font-family: 'Oxanium', sans-serif;
     font-weight: 700;
@@ -154,6 +156,7 @@ body {
     margin-bottom: 14px;
 }
 
+/* вопрос по обрезанным иконкам */
 .ram__item:nth-child(1) {
     background-image: url(./../img/terminal-square.svg);
     background-position-y: -3px;
@@ -173,7 +176,31 @@ body {
     margin-bottom: 0;
 }
 
-
 .ram__text {
     max-width: 708px;
+}
+
+
+
+.footer {
+    background-color: #FFFFFF;
+
+    padding: 30px 0 26px;
+}
+
+.footer__border {
+    border-top: 1px solid #2D2D2D;
+}
+
+.footer__copy {
+    font-family: 'Heebo', sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    color: #333333;
+    margin-left: 324px;
+    padding-top: 3px;
+}
+
+.footer__img {
+    padding-left: 7px;
 }
