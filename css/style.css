@@ -4,9 +4,7 @@
 
 
 
-.wrapper {
-    /* padding: 12px 0 30px; */
-}
+.wrapper {}
 
 
 body {
@@ -157,7 +155,6 @@ body {
 
 .ram__item {
     position: relative;
-
     line-height: 18px;
 
     padding-left: 28px;
@@ -167,30 +164,39 @@ body {
 }
 
 
-.ram__item:nth-child(1) {
-    position: absolut;
-    top: 0;
-    left: 0;
+.ram__item:nth-child(1)::before {
+    content: '';
+
+    position: absolute;
+    top: -2px;
+    left: -1px;
 
     width: 24px;
     height: 24px;
     background: url(./../img/terminal-square.svg) 0 0 / contain no-repeat;
 }
 
-.ram__item:nth-child(2) {
-    position: absolut;
-    top: 0;
-    left: 0;
+.ram__item:nth-child(2)::before {
+    content: '';
 
+    position: absolute;
+    top: -2px;
+    left: -1px;
 
+    width: 24px;
+    height: 24px;
     background: url(./../img/terminal.svg) 0 0 / contain no-repeat;
 }
 
-.ram__item:nth-child(3) {
-    position: absolut;
-    top: 0;
-    left: 0;
+.ram__item:nth-child(3)::before {
+    content: '';
 
+    position: absolute;
+    top: -1px;
+    left: -1px;
+
+    width: 24px;
+    height: 24px;
     background: url(./../img/calculator.svg) 0 0 / contain no-repeat;
 }
 
